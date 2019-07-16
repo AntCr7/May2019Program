@@ -48,7 +48,7 @@ public class DepartmentApplicationTests {
 	
 	@Test
 	public void deleteByDepnoUsingService() {
-		int depno =11;
+		int depno =12;
 		depService.deleteBydepno(depno);
 		assertNull(depService.findByDepno(depno));
 	}
