@@ -23,9 +23,7 @@ public class ProjectApplicationTests {
 	@Test
 	public void exampleProjectTest() {
 		System.out.println("Project Test Case Scenarios");
-		emp.setName("Changed name");
-		emp.setSalary(345.0);
-		empService.registerEmployee(new Employee());
+	
 	}
 	
 }
